@@ -4,7 +4,6 @@
     font-size: 12px;
 }
 
-
 /* Navigation Bar */
     .navbar{
         width: 100vw;
@@ -28,10 +27,6 @@
         
         background-color: white;
         color: black;
-    }
-    .loginNav{
-        float: right;
-        margin-right: 1vw;
     }
 
 /* Background Image */
@@ -81,24 +76,24 @@
       }
 
 /* input field */
-input{
-    text-align: center;
-    padding: 10px;
-    border: solid black;
-    border-radius: 15px;
-}
+    input{
+        text-align: center;
+        padding: 10px;
+        border: solid black;
+        border-radius: 15px;
+    }
 
 /* login Button */
-button{
-    background-color: black;
-    color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: solid black;
-    border-radius: 15px;
-}
+    button{
+        background-color: black;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border: solid black;
+        border-radius: 15px;
+    }
 
 /* Footer */
     .footer{
