@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+/* Navigation Bar */
+    .navbar{
+        width: 100vw;
+
+        background-color: black;
+
+        position: fixed ;
+        z-index: 1;
+    }
+    .navOption{font-size: 12px;
+        
+        color: white;
+
+        padding: 10px;
+
+        text-decoration: none;
+        display: inline-block;  
+    }
+    .navOption:hover{
+        font-weight: bold;
+        
+        background-color: white;
+        color: black;
+    }
+    .loginNav{
+        float: right;
+        margin-right: 1vw;
+    }
+
+/* Background Image */
+    img{height: 130%;
+        width: 99vw;
+
+        opacity: 0.7;
+
+        z-index: -1;
+        position: absolute;  
+    }
+
+/* Main Body */
+    .container{
+        width: 100vw;
+        height: 100vh;
+        
+        margin: 1vw;
+        
+        position: relative;  
+    }
+
+/* Heading */
+    .heading{
+        font-size: 70px;
+        margin-top: 25vh;
+    }
+
+/* Sub Heading */
+    .sub-heading{
+        margin-top: 10vh;
+    }
+
+/* Box/Cubes */
+    .container-box{
+        margin-top: 10vh;
+        margin-left: 30%;
+        
+    }
+    .box{
+        text-align: center;
+
+        height: 70px;
+        width: 150px; 
+
+        padding: 10px;
+        padding-top: 50px;
+        margin: 1vh;
+
+        border: solid black;
+        border-radius: 13px;
+        
+        display: inline-block;   
+    }
+    .box a{
+        font-size: larger;
+        color: black;
+        text-decoration: none;  
+    }
+
+/* Footer */
+    .footer{
+        font-size: 7px;
+        text-align: center;
+
+        background-color: black;
+        color: white;
+        
+        bottom: 0;
+        padding: 5px;
+    }

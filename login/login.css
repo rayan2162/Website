@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+
+/* Navigation Bar */
+    .navbar{
+        width: 100vw;
+
+        background-color: black;
+
+        position: fixed ;
+        z-index: 1;
+    }
+    .navOption{font-size: 12px;
+        
+        color: white;
+
+        padding: 10px;
+
+        text-decoration: none;
+        display: inline-block;  
+    }
+    .navOption:hover{
+        font-weight: bold;
+        
+        background-color: white;
+        color: black;
+    }
+    .loginNav{
+        float: right;
+        margin-right: 1vw;
+    }
+
+/* Background Image */
+    img{height: 100vh;
+        width: 100vw;
+
+        opacity: 0.7;
+
+        z-index: -1;
+        position: absolute;  
+    }
+
+/* Main Body */
+    .container{
+        text-align: center;
+
+        width: 100vw;
+        height: 95vh;
+        
+        margin: 1vw;
+        
+        position: relative;  
+    }
+
+/* heading */
+    h1{
+        margin-bottom: 3vh;
+        font-size: 2em;
+    }
+/* login Box */
+    .box{
+        padding: 50px;
+        border: solid black;
+        border-radius: 15px;
+        display: inline-block;
+        position: absolute;
+        top: 35%;
+        left: 35%;
+        right: 40%;
+    }
+
+    @media only screen and (max-width: 500px) {
+        .box{
+            left: 15%;
+            right: 15%;
+        }
+      }
+
+/* input field */
+input{
+    text-align: center;
+    padding: 10px;
+    border: solid black;
+    border-radius: 15px;
+}
+
+/* login Button */
+button{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: solid black;
+    border-radius: 15px;
+}
+
+/* Footer */
+    .footer{
+        font-size: 7px;
+        text-align: center;
+
+        background-color: black;
+        color: white;
+        
+        bottom: 0;
+        padding: 5px;
+    }
